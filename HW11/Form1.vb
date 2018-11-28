@@ -8,8 +8,4 @@
         Dim numConverter As Integer = Integer.Parse(txtConverter.Text)
         BinaryOutput.Text = Convert.ToString(numConverter, 2)
     End Sub
-
-    Private Sub BinaryOutput_TextChanged(sender As Object, e As EventArgs) Handles BinaryOutput.TextChanged
-
-    End Sub
 End Class
